@@ -1,0 +1,1 @@
+- [[technology/concepts/PropertyTesting]] with [[technology/language/python]]
