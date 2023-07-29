@@ -1,0 +1,2 @@
+- [[technology/language/Go]]
+-
