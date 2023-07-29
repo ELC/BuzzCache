@@ -1,1 +1,2 @@
-- Static Site generator using [[technology/language/python]] and [[technology/Jinja2]] and [[technology/Mako]]. Compatible with
+- Static Site generator using [[technology/language/python]] and [[technology/Jinja2]] and [[technology/Mako]]. Compatible with [[technology/Jupyter]]
+-
