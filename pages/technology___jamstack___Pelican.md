@@ -1,0 +1,2 @@
+- Static Site generator using [[technology/language/python]] and [[technology/Jinja2]]
+-
