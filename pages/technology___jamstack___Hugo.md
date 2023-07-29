@@ -1,1 +1,3 @@
-- A stat
+- A static site generator built in [[technology/language/Go]]
+-
+-
