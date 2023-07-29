@@ -1,0 +1,2 @@
+- A tools that uses [[technology/language/Groovy]] for CICD pipelines
+-
