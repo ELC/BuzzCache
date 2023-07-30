@@ -1,0 +1,1 @@
+- TestNG is another testing framework for [[technology/language/java]] , inspired by JUnit. It offers additional features such as test configuration, parallel test execution, and data-driven testing.

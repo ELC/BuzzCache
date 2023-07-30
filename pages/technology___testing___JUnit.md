@@ -1,0 +1,2 @@
+- JUnit is a widely used testing framework for [[technology/language/java]] applications. It provides annotations and assertions to write and execute unit tests.
+-
