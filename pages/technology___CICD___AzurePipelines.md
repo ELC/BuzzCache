@@ -1,0 +1,1 @@
+- Azure Pipelines in Azure DevOps supports [[technology/language/YAML]] -based configuration and can build and deploy projects written in various languages, including .NET, Java, Python, and more.
