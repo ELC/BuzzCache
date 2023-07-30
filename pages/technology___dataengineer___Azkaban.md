@@ -1,2 +1,2 @@
-- Azkaban is an open-source workflow manager developed by LinkedIn. It provides a web-based interface to create and schedule workflows with dependencies between jobs.
+- Azkaban is an open-source [[technology/concepts/workflow-manager]] developed by LinkedIn. It provides a web-based interface to create and schedule workflows with dependencies between jobs.
 -
