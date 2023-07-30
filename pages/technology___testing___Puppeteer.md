@@ -1,2 +1,3 @@
-- Puppeteer is a [Node.js] library for controlling headless Chrome or Chromium browsers, commonly used for browser automation testing.
+- Puppeteer is a [[technology/language/NodeJS]] library for controlling headless Chrome or Chromium browsers, commonly used for browser automation testing.
+-
 -
