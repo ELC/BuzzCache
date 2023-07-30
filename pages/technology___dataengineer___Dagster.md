@@ -1,1 +1,1 @@
-- Dagster is an open-source data [[technology/concepts/orchestration]] that focuses on data quality, data lineage, and pipeline monitoring.
+- Dagster is an open-source data [[technology/concepts/orchestration]] that focuses on data quality, data lineage, and pipeline monitoring. It allows to use [[technology/language/python]] for workflow management.
