@@ -1,1 +1,1 @@
-- Karma is a test runner for [[technology/language/JavaScript]] that is often used in combination with [[technology/testing/Mocha]] or Jasmine. It allows for easy testing across different browsers and devices.
+- Karma is a test runner for [[technology/language/JavaScript]] that is often used in combination with [[technology/testing/Mocha]] or [[technology/testing/Jasmine]] . It allows for easy testing across different browsers and devices.

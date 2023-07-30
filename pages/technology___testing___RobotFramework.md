@@ -1,3 +1,3 @@
 - A generic open source test automation tool that uses [[technology/language/python]]
 -
--
+- Robot Framework is an open-source test automation framework that uses a simple tabular syntax and supports keyword-driven testing. It is often used for acceptance testing, robotic process automation, and other test automation tasks.
