@@ -1,2 +1,2 @@
-- [[technology/language/C#]]
+- [[technology/language/.Net]]
 -

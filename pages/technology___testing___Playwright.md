@@ -1,2 +1,2 @@
-- An end to end testing framework with support for [[technology/language/python]], [[technology/language/JavaScript]], [[technology/language/TypeScript]], [[technology/language/C#]] and [[technology/language/java]]
+- An end to end testing framework with support for [[technology/language/python]], [[technology/language/JavaScript]], [[technology/language/TypeScript]], [[technology/language/.Net]] and [[technology/language/java]]
 -

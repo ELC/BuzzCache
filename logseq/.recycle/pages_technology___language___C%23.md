@@ -1,0 +1,1 @@
+alias:: technology/language/.Net

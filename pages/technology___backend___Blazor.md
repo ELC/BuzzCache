@@ -1,2 +1,2 @@
-- A [[technology/language/C#]] backend framework
+- A [[technology/language/.Net]] backend framework
 -
