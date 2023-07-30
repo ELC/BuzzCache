@@ -1,1 +1,1 @@
-- Active Record is an integral part of the []Ruby on Rails framework. It simplifies database access by providing an easy-to-use [[technology/concepts/API]] for querying and manipulating data.
+- Active Record is an integral part of the [[technology/backend/Rails]] framework. It simplifies database access by providing an easy-to-use [[technology/concepts/API]] for querying and manipulating data.
