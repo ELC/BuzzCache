@@ -1,1 +1,2 @@
-- CocoaPods is the dependency manager for Swift and Objective-C projects in the iOS/macOS ecosystem.
+- CocoaPods is the dependency manager for [[Objective-C]] and [[technology/language/Objective-C]] projects in the iOS/macOS ecosystem.
+-
