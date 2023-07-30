@@ -1,0 +1,1 @@
+- GitLab CI/CD configurations are defined using YAML, a human-readable data serialization format. The configurations can execute shell scripts, which can be written in various scripting languages like Bash, Python, etc.

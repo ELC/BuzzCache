@@ -1,4 +1,2 @@
-- Jenkins is one of the most widely used CI/CD tools. It allows for the automation of building, testing, and deploying code across various platforms and languages.
-- Jenkins is primarily written in Java. It also has extensive support for plugins, which can be written in various languages.
-- A tools that uses [[technology/language/Groovy]] for CICD pipelines
+- Jenkins is one of the most widely used CI/CD tools. It allows for the automation of building, testing, and deploying code across various platforms and languages. Jenkins is primarily written in [[technology/language/java]] . It also has extensive support for plugins, which can be written in various languages. Scripts can also be written in [[technology/language/Groovy]].
 -
