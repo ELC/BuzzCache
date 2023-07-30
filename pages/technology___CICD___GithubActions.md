@@ -1,0 +1,1 @@
+- GitHub Actions configurations are also defined using [[technology/language/YAML]] . It allows for executing shell scripts, which can be written in various scripting languages.

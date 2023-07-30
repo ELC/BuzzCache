@@ -1,0 +1,1 @@
+- Travis CI is configured using [[technology/language/YAML]] files, it supports multiple programming languages, allowing developers to write build and test scripts in their preferred language.
