@@ -1,1 +1,1 @@
-- [[technology/language/JavaScript]]
+- Yarn is an alternative package manager for [[technology/language/JavaScript]] projects. It offers faster and more reliable dependency resolution compared to [[technology/DependencyManagement/npm]] .
