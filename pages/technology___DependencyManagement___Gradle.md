@@ -1,0 +1,2 @@
+- Gradle is another build automation tool commonly used for [[technology/language/java]] projects. It offers great flexibility and performance while managing dependencies.
+-
