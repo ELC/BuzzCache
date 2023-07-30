@@ -1,0 +1,2 @@
+- Selenium is a widely used testing suite for web applications. It supports multiple programming languages, including [[technology/language/java]], [[technology/language/python]], [[technology/language/C#]], [[technology/language/Ruby]], and others, to write browser automation tests.
+-

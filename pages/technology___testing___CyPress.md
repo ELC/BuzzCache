@@ -1,2 +1,1 @@
-- An automated testing tool that uses [[technology/language/JavaScript]]
--
+- Cypress is a modern [[technology/language/JavaScript]] -based end-to-end testing framework for web applications. It provides an easy-to-use API for writing tests and has built-in support for real-time reloading.
