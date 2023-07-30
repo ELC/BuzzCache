@@ -1,0 +1,2 @@
+- Chef is another configuration management tool that enables infrastructure automation and application deployment.
+-

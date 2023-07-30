@@ -1,0 +1,2 @@
+- Terraform is an open-source IaC tool that allows users to define and provision infrastructure using declarative configuration files.
+-
