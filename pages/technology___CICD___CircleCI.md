@@ -1,0 +1,2 @@
+-
+	- CircleCI supports a wide range of programming languages, and its configuration can be done using YAML. The build and test scripts can be written in the language that corresponds to your project.
