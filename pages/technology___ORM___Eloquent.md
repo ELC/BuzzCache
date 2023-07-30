@@ -1,0 +1,1 @@
+- Eloquent is [[technology/backend/Laravel]]'s [[technology/ORM]], which makes database interactions straightforward by utilizing an expressive and fluent syntax.
