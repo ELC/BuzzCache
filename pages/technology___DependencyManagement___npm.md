@@ -1,1 +1,1 @@
-- [[technology/language/JavaScript]]
+- npm is the default package manager for [[techno]] and is widely used in the JavaScript ecosystem. It allows developers to install, manage, and share packages with ease.
