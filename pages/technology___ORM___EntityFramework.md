@@ -1,2 +1,2 @@
-- [[technology/language/.Net]]
+- Entity Framework is the [[technology/ORM]] framework for [[technology/language/.Net]] applications. It enables developers to work with relational databases using .NET objects and [[technology/LINQ]] (Language-Integrated Query).
 -

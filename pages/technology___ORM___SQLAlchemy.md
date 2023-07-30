@@ -1,0 +1,2 @@
+- [[technology/language/python]]
+- SQLAlchemy is a popular ORM tool for Python. It offers both high-level and low-level access to databases, giving developers flexibility in how they interact with their database systems.
