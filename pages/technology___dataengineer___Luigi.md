@@ -1,0 +1,2 @@
+- Luigi is an open-source [[technology/language/python]]-based [[technology/concepts/orchestration]] management system developed by Spotify. It allows you to define complex workflows as directed acyclic graphs (DAGs) and handles task dependencies, scheduling, and error handling.
+-
