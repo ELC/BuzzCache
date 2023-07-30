@@ -1,1 +1,1 @@
-- [[technology/language/java]]
+- Hibernate is one of the most widely used [[technology/ORM]] frameworks in the Java ecosystem. It simplifies database interactions by mapping [[technology/language/java]] objects to database tables, providing a seamless way to perform CRUD (Create, Read, Update, Delete) operations.
