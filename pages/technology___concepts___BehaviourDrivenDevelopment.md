@@ -1,0 +1,1 @@
+alias:: technology/concepts/BDD
