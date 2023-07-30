@@ -1,0 +1,1 @@
+- Gauge is an open-source cross-platform test automation tool that supports multiple programming languages. It emphasizes readability and maintainability of test scripts.
