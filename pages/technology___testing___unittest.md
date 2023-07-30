@@ -1,0 +1,2 @@
+- unittest is [[technology/language/python]] 's built-in testing framework, heavily inspired by Java's JUnit. It provides test discovery and test execution capabilities.
+-

@@ -1,2 +1,1 @@
-- [[technology/language/python]]
--
+- Pytest is a popular testing framework for [[technology/language/python]] applications. It offers a simple syntax for writing tests and supports fixtures for test setup and teardown.
