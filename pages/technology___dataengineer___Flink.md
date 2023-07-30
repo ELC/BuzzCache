@@ -1,0 +1,1 @@
+- Flink is another distributed data processing framework that supports both batch and stream processing, making it suitable for real-time analytics.

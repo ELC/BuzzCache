@@ -1,1 +1,0 @@
-- Spark is a powerful distributed data processing engine that provides high-speed data processing and analytics capabilities. It supports various programming languages such as [[technology/language/Scala]], [[technology/language/java]] , [[technology/language/python]] , and R.
