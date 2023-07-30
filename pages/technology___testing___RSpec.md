@@ -1,0 +1,1 @@
+- RSpec is a popular testing framework for [[technology/language/Ruby]] applications. It follows a [[technology/concepts/BehaviourDrivenDevelopment]] approach, making tests more expressive and readable.
