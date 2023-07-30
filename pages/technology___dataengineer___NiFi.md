@@ -1,0 +1,2 @@
+- NiFi is a data integration and data flow automation tool used for ingesting, processing, and distributing data from various sources.
+-

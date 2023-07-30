@@ -1,0 +1,1 @@
+- Airflow is an open-source platform used for orchestrating complex data workflows. It enables the scheduling, monitoring, and management of data pipelines.
