@@ -1,2 +1,2 @@
-- Hadoop is an open-source framework for distributed storage and processing of big data. It consists of two main components: Hadoop Distributed File System (HDFS) for storage and MapReduce for processing data in parallel.
+- Hadoop is an open-source framework for distributed storage and processing of big data. It consists of two main components: Hadoop Distributed File System (HDFS) for storage and [[technology/concepts/MapReduce]] for processing data in parallel.
 -
