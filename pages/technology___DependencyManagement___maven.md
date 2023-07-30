@@ -1,0 +1,2 @@
+- Maven is a powerful build automation and dependency management tool for Java projects. It manages project dependencies and handles the build lifecycle.
+-

@@ -1,0 +1,1 @@
+- pip is the package installer for [[technology/language/python]] and is the standard tool for managing Python libraries. It simplifies the process of installing and upgrading packages.
