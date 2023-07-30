@@ -1,0 +1,1 @@
+- TeamCity is written in [[technology/language/java]] and supports build scripts and plugins written in various languages like [[technology/language/java]] , [[technology/language/Groovy]] , [[technology/language/Kotlin]], and others.

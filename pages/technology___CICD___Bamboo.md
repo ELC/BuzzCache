@@ -1,0 +1,1 @@
+- Bamboo is written in [[technology/language/java]] , and it supports build and deployment scripts that can be written in different languages depending on the specific task.
