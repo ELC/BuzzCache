@@ -1,0 +1,1 @@
+- Composer is the dependency manager for [[technology/language/PHP]] and is particularly popular in the PHP community. It simplifies the process of adding external packages to PHP projects.
