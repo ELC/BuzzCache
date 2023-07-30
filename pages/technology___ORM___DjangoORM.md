@@ -1,1 +1,1 @@
-- [[technology/backend/Django]] comes with a built-in [[technology/concepts/ORM]] for [[technology/language/python]] developers. It encourages the use of the [[technology/concepts/ModelViewPattern]] pattern and makes it easy to define data models and perform database operations.
+- [[technology/backend/Django]] comes with a built-in [[technology/ORM]] for [[technology/language/python]] developers. It encourages the use of the [[technology/concepts/ModelViewPattern]] pattern and makes it easy to define data models and perform database operations.

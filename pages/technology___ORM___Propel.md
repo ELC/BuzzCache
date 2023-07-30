@@ -1,1 +1,1 @@
-- Propel is an ORM framework for [[technology/language/PHP]] that follows the [[technology/ORM/ActiveRecord]]pattern and provides a simple and efficient way to interact with databases.
+- Propel is an ORM framework for [[technology/language/PHP]] that follows the [[technology/ORM/ActiveRecord]] pattern and provides a simple and efficient way to interact with databases.
