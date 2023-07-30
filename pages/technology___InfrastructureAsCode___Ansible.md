@@ -1,0 +1,1 @@
+- Ansible is an open-source automation tool that allows configuration management and application deployment through simple [[technology/language/YAML]] scripts.

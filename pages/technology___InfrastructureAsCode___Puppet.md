@@ -1,0 +1,1 @@
+- Puppet is a configuration management tool that automates the provisioning and management of infrastructure.
