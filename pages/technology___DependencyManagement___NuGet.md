@@ -1,0 +1,1 @@
+- NuGet is the package manager for the [[technology/language/.Net]] ecosystem. It is used for managing dependencies in C# and other .NET languages.
