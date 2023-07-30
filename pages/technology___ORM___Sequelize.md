@@ -1,3 +1,3 @@
 - [[technology/language/NodeJS]] ORM library
--
+- Sequelize is an [[technology/concepts/ORM]]for Node.js applications, allowing developers to work with relational databases using JavaScript promises and async/await.
 -
