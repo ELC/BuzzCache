@@ -1,0 +1,1 @@
+- [[technology/backend/Django]] comes with a built-in [[technology/concepts/ORM]] for [[technology/language/python]] developers. It encourages the use of the Model-View-Template (MVT) pattern and makes it easy to define data models and perform database operations.
