@@ -1,2 +1,2 @@
-- Chai is a [[technology/concepts/BehaviourDrivenDevelopment]] / TDD assertion library for node and the browser that can be delightfully paired with any javascript testing framework.
+- Chai is a [[technology/concepts/BehaviourDrivenDevelopment]] / [[technology/concepts/TestDrivenDevelopment]] assertion library for [[technology/language/NodeJS]] and the browser that can be delightfully paired with any [[technology/language/JavaScript]] testing framework.
 -

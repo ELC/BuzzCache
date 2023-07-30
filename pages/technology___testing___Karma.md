@@ -1,0 +1,1 @@
+- Karma is a test runner for JavaScript that is often used in combination with Mocha or Jasmine. It allows for easy testing across different browsers and devices.

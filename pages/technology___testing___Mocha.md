@@ -1,2 +1,2 @@
-- Mocha is a flexible and popular [[technology/language/JavaScript]] testing framework that supports both synchronous and asynchronous testing. It can be used with various assertion libraries like Chai and provides browser and [[technology/language/NodeJS]] support.
+- Mocha is a flexible and popular [[technology/language/JavaScript]] testing framework that supports both synchronous and asynchronous testing. It can be used with various assertion libraries like [[technology/testing/Chai]] and provides browser and [[technology/language/NodeJS]] support.
 -
