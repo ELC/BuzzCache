@@ -20,11 +20,7 @@
 -
 - #+BEGIN_QUERY
   {
-   :query [:find (pull ?page [*])
-   :where
-   [?page :block/marker ?block]
-   
-  ]
+  :title ?page
   }
   #+END_QUERY
 -
