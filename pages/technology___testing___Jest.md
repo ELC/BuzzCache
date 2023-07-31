@@ -1,2 +1,2 @@
-- Jest is a testing framework for [[technology/language/JavaScript]] applications, particularly popular in the [[technology/front-end/React]] ecosystem. It provides built-in support for various testing utilities.
+- Jest is a testing framework for [[technology/language/JavaScript]] applications, particularly popular in the [[technology/front-end/Framework/React]] ecosystem. It provides built-in support for various testing utilities.
 -

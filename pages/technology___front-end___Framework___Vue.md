@@ -1,2 +1,3 @@
-alias:: technology/front-end/Vue.js
+alias:: technology/front-end/Framework/
+Vue.js
 title:: technology/front-end/Framework/Vue
