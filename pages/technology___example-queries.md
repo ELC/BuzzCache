@@ -11,12 +11,9 @@
   #+BEGIN_QUERY
   {
   	:query [
-  		:find (pull ?b [*]) 
+  		:find (pull ?p [*]) 
   		:where 
-  [?page :block/refs ?java]
-     [?page :block/refs ?testing]
-  			[?b :block/uuid] 
-  			[?b :block/marker ?marker] 
+              [?p :block/refs ?technology/language/Java]
   	]
   }
   #+END_QUERY
