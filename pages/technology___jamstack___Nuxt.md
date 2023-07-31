@@ -1,2 +1,2 @@
-- Static site generator using [[technology/language/JavaScript]] and [[technology/front-end/Vue]]
+- Static site generator using [[technology/language/JavaScript]] and [[technology/front-end/Framework/Vue]]
 -
