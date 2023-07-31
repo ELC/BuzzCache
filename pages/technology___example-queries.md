@@ -23,7 +23,7 @@
    :query [
            :find (pull ?b [*])
            :where
-           [(contains? #{"TODO" "DOING"} ?b)]
+           [(contains? #{"Testing"} ?b)]
            ]
   }
   #+END_QUERY
