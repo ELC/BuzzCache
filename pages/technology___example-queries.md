@@ -22,10 +22,10 @@
   {
    :query [:find (pull ?page [*])
    :where
-   [?page :page/marker ?page]
-   [?page :page/refs ?java]
+   [?block:block/marker ?block]
+   [?block:block/refs ?technology/testing]
    
-   [(clojure.string/includes? ?page"Java")]
+   [(clojure.string/includes? ?block"technology/testing")]
    
   ]
   }
