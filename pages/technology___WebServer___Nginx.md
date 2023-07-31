@@ -1,0 +1,1 @@
+- Nginx (pronounced "engine x") is a powerful, open-source web server and reverse proxy server that is widely used in web hosting and application deployment scenarios. It is known for its high performance, stability, and low resource usage, making it a popular choice for serving static content and handling a large number of concurrent connections.
