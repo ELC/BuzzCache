@@ -4,8 +4,9 @@
      :where 
      [?page :block/refs ?technology]
   #+END_QUERY
-- {{query [[technology/language/python]] }}
+- {{query (and [[technology/language/python]] [[technology/testing]] }}
   query-table:: true
+  query-properties:: [:page]
 -
 - *#+BEGIN_QUERY*
   {:title "Pages created past 30 days"
