@@ -4,11 +4,17 @@
      :where 
      [?page :block/refs ?technology]
   #+END_QUERY
-- {{query}}
+- query-sort-by:: page
   query-table:: false
-  query-properties:: [:page]
-  query-sort-by:: page
   query-sort-desc:: true
+  query-properties:: [:page]
+  #+BEGIN_QUERY
+  {
+   :query [
+           :find (pull ?p [*]) 
+  
+  }
+  #+END_QUERY
 -
 -
 - *#+BEGIN_QUERY*
