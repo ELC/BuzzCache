@@ -12,7 +12,7 @@
   {
    :query [
            :find (pull ?p [*]) 
-  
+  ]
   }
   #+END_QUERY
 -
