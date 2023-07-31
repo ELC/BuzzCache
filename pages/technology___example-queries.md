@@ -23,7 +23,7 @@
    :query [:find (pull ?page [*])
    :where
    [?page :block/marker ?block]
-   [?block :block/content ?content]
+   
   ]
   }
   #+END_QUERY
