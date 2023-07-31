@@ -23,10 +23,7 @@
    :query [:find (pull ?page [*])
    :where
    [?page :block/marker ?block]
-   [?page :block/refs ?testing]
-   
-   [(clojure.string/includes? ?block"testing")]
-   
+   [?page :block/refs ?testing] 
   ]
   }
   #+END_QUERY
