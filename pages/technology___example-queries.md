@@ -13,9 +13,10 @@
   	:query [
   		:find (pull ?b [*]) 
   		:where 
+  [?page :block/refs ?java]
+     [?page :block/refs ?testing]
   			[?b :block/uuid] 
   			[?b :block/marker ?marker] 
-  			[(contains? *#{"TODO" "DOING" "LATER" "NOW"} ?marker)] *
   	]
   }
   #+END_QUERY
