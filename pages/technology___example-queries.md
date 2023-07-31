@@ -23,7 +23,7 @@
    :query [:find (pull ?page [*])
    :where
    [?page :block/marker ?block]
-   [?page :block/refs ?technology] 
+   [?block :block/content ?content]
   ]
   }
   #+END_QUERY
