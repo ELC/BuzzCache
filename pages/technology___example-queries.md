@@ -1,1 +1,1 @@
-- {{query [[technology/language/java]] }}
+- {{query and ([[technology/language/java]] [[technology/testing]]) }}
