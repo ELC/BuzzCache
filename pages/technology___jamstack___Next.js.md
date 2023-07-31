@@ -1,2 +1,2 @@
-- Built with [[technology/language/JavaScript]], uses [[technology/front-end/Framework/React]] and [[technology/techniques/ServerSideRendering]]
+- Built with [[technology/language/JavaScript]], uses [[technology/frontend/Framework/React]] and [[technology/techniques/ServerSideRendering]]
 -

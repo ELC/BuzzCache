@@ -1,1 +1,1 @@
-- Protractor is an end-to-end testing framework for [[technology/front-end/Framework/Angular]] and [[technology/front-end/Framework/AngularJS]] applications.
+- Protractor is an end-to-end testing framework for [[technology/frontend/Framework/Angular]] and [[technology/frontend/Framework/AngularJS]] applications.

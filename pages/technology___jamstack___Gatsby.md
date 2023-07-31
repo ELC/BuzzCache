@@ -1,2 +1,2 @@
-- Static gen that uses [[technology/language/JavaScript]] and [[technology/front-end/Framework/React]]
+- Static gen that uses [[technology/language/JavaScript]] and [[technology/frontend/Framework/React]]
 -
