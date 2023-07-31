@@ -2,13 +2,22 @@
   {:title
    [[:find (pull ?page [*]) 
      :where 
-     [?page :block/marker ?block]
-     [?page :block/refs ?java]
-     [?page :block/refs ?testing]
-     [(clojure.string/includes? ?block "Java")]
-     [(clojure.string/includes? ?block "testing")]]}
+     [?page :block/refs ?technology]
   #+END_QUERY
--
+- {
+   :title [:h2 "🧨 OVERDUE"]
+   :query [
+           :find (pull ?b [*])
+           :in $ ?start ?today
+           :where
+           (between ?b ?start ?today)
+           (task ?b #{"TODO" "DOING"})
+           (not [?b :block/scheduled])
+           (not [?b :block/priority "A"])
+          ]
+   :inputs [:-180d :today]
+   :breadcrumb-show? true
+  }
 -
 -
 - {{query (or [[technology/language/java]] [[technology/testing]]) }}
