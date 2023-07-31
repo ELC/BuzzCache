@@ -4,18 +4,11 @@
      :where 
      [?page :block/refs ?technology]
   #+END_QUERY
-- query-sort-by:: page
+- {{query (and page [[contains Java]] [[contains testing]])}}
+  query-sort-by:: page
   query-table:: false
   query-sort-desc:: true
   query-properties:: [:page]
-  #+BEGIN_QUERY
-  {
-   :query [
-           :find (pull ?p [*]) 
-  ]
-  }
-  #+END_QUERY
--
 -
 - *#+BEGIN_QUERY*
   {:title "Pages created past 30 days"
