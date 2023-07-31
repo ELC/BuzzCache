@@ -1,1 +1,1 @@
-- ORM for [[technology/database/MongoDB]] using [[technology/language/JavaScript]]
+- ORM for [[technology/database/NoSQL/Document/MongoDB]] using [[technology/language/JavaScript]]
