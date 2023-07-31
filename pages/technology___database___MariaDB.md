@@ -1,2 +1,0 @@
-- A fork of the [[technology/database/MySQL]] database
--
