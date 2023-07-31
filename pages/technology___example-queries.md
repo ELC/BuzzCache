@@ -23,7 +23,7 @@
    :query [:find (pull ?page [*])
    :where
    [?page :block/marker ?block]
-   [?page :block/refs ?technology/language/java]
+   [?page :block/refs ?java]
    [?page :block/refs ?testing]
    [(clojure.string/includes? ?block "Java")]
    [(clojure.string/includes? ?block "testing")]]
