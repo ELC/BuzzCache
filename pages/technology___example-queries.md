@@ -20,11 +20,13 @@
 -
 - #+BEGIN_QUERY
   {
-   :query [
-           :find (pull ?b [*])
-           :where
-           [(contains? #{"Testing"} ?b)]
-           ]
+   :query [:find (pull ?page [*])
+   :where
+   [?page :block/marker ?block]
+   [?page :block/refs ?technology/language/java]
+   [?page :block/refs ?testing]
+   [(clojure.string/includes? ?block "Java")]
+   [(clojure.string/includes? ?block "testing")]]
   }
   #+END_QUERY
 -
