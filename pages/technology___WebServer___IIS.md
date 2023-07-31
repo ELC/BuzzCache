@@ -1,0 +1,2 @@
+- IIS (Internet Information Services) is a web server software developed by Microsoft for hosting and serving web applications on Windows-based servers. It is a feature-rich and robust web server that supports various protocols, including HTTP, HTTPS, FTP, SMTP, and more.
+- IIS is tightly integrated with the Windows Server operating system and provides seamless compatibility with ASP.NET, [[technology/language/.Net]] , .NET Core, and other Microsoft technologies, making it an excellent choice for hosting web applications developed on these platforms.
