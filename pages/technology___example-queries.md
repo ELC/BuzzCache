@@ -5,7 +5,7 @@
      [?page :block/refs ?technology]
   #+END_QUERY
 - {{query}}
-  query-table:: true
+  query-table:: false
   query-properties:: [:page]
   query-sort-by:: page
   query-sort-desc:: true
