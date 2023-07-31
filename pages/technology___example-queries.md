@@ -22,8 +22,8 @@
   {
    :query [:find (pull ?page [*])
    :where
-   [?block:block/marker ?block]
-   [?block:block/refs ?technology/testing]
+   [?page :block/marker ?block]
+   [?page :block/refs ?technology/testing]
    
    [(clojure.string/includes? ?block"technology/testing")]
    
