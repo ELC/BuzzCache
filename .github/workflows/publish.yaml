@@ -20,21 +20,20 @@ jobs:
         with:
           version: 0.9.11
           theme-mode: dark
-          output-directory: $GITHUB_WORKSPACE/_site/ # Default Github Pages site
 
       - name: Add a nojekyll file
-        run: touch $GITHUB_WORKSPACE/_site/.nojekyll
+        run: touch www/.nojekyll
 
       - name: Fix permissions
         run: |
-          chmod -c -R +rX "$GITHUB_WORKSPACE/_site/" | while read line; do
+          chmod -c -R +rX "www/" | while read line; do
             echo "::warning title=Invalid file permissions automatically fixed::$line"
           done
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: $GITHUB_WORKSPACE/_site/
+          path: www
 
   deploy:
     needs: build
