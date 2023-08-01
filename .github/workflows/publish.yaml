@@ -26,7 +26,8 @@ jobs:
 
       - run: >
           sudo apt-get install tree
-          echo $(tree)
+          var=$(tree .)
+          echo $var
       
       - name: Fix permissions
         run: |
