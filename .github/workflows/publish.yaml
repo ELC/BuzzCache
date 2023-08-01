@@ -24,7 +24,7 @@ jobs:
         with:
           version: 0.9.11
           theme-mode: dark
-          output-directory: $OUTPUT_PATH
+          output-directory: ${{ vars.OUTPUT_PATH }}
 
       - name: Add a nojekyll file
         run: touch $OUTPUT_PATH/.nojekyll
@@ -38,7 +38,7 @@ jobs:
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: $OUTPUT_PATH
+          path: ${{ vars.OUTPUT_PATH }}
 
   deploy:
     needs: build
