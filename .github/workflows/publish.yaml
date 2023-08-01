@@ -9,13 +9,9 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
-
-
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      OUTPUT_PATH: ${{ vars.GITHUB_WORKSPACE }}/_site/
     steps:
       - uses: actions/checkout@v3
 
@@ -24,21 +20,21 @@ jobs:
         with:
           version: 0.9.11
           theme-mode: dark
-          output-directory: ${{ vars.OUTPUT_PATH }}
+
+      - name: Rename Output to _site
+        run: mv www _site
 
       - name: Add a nojekyll file
-        run: touch ${OUTPUT_PATH}.nojekyll
+        run: touch _site/.nojekyll
 
       - name: Fix permissions
         run: |
-          chmod -c -R +rX "$OUTPUT_PATH" | while read line; do
+          chmod -c -R +rX "_site/" | while read line; do
             echo "::warning title=Invalid file permissions automatically fixed::$line"
           done
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v2
-        with:
-          path: ${{ vars.OUTPUT_PATH }}
 
   deploy:
     needs: build
