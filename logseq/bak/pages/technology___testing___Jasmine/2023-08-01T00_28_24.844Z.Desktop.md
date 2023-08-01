@@ -1,0 +1,3 @@
+- Jasmine is a [[technology/concepts/BDD]] testing framework for [[technology/language/JavaScript]] . It provides an expressive syntax for writing tests and is often used with [[technology/front-end/Angular]] applications.
+-
+-
