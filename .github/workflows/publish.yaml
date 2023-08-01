@@ -20,7 +20,7 @@ jobs:
         with:
           version: 0.9.11
           theme-mode: dark
-          output-directory: $GITHUB_WORKSPACE/_site # Default Github Pages site
+          output-directory: $GITHUB_WORKSPACE/_site/ # Default Github Pages site
 
       - name: Add a nojekyll file
         run: touch $GITHUB_WORKSPACE/_site/.nojekyll
@@ -34,7 +34,7 @@ jobs:
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: $GITHUB_WORKSPACE/_site
+          path: $GITHUB_WORKSPACE/_site/
 
   deploy:
     needs: build
