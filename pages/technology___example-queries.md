@@ -1,9 +1,10 @@
 - #+BEGIN_QUERY
-  {:title "Pages mentioning [[technology/language/Java]]"
+  {
    :query [:find ?title
    :where
    [?page :block/string ?title]
    [?title :find/text "technology/language/Java"]
+  
   ]
   #+END_QUERY
 -
