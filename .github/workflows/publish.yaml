@@ -24,6 +24,10 @@ jobs:
       - name: Add a nojekyll file
         run: touch www/.nojekyll
 
+      - run: >
+          apt-get install tree
+          tree
+      
       - name: Fix permissions
         run: |
           chmod -c -R +rX "www/" | while read line; do
