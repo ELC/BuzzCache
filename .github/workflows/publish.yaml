@@ -12,10 +12,6 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    
-    permissions:
-      contents: write
-    
     steps:
       - uses: actions/checkout@v3
 
@@ -24,25 +20,19 @@ jobs:
         with:
           version: 0.9.11
           theme-mode: dark
+          output-directory: $GITHUB_WORKSPACE/_site # Default Github Pages site
 
       - name: Add a nojekyll file
-        run: touch www/.nojekyll
+        run: touch $GITHUB_WORKSPACE/_site/.nojekyll
 
-      - run: >
-          sudo apt-get install tree
-          var=$(tree .)
-          echo $var
-      
       - name: Fix permissions
         run: |
-          chmod -c -R +rX "www/" | while read line; do
+          chmod -c -R +rX "$GITHUB_WORKSPACE/_site/" | while read line; do
             echo "::warning title=Invalid file permissions automatically fixed::$line"
           done
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v2
-        with:
-          path: www
 
   deploy:
     needs: build
