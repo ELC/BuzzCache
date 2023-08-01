@@ -25,7 +25,7 @@ jobs:
         run: touch www/.nojekyll
 
       - run: >
-          apt-get install tree
+          sudo apt-get install tree
           tree
       
       - name: Fix permissions
