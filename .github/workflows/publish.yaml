@@ -20,14 +20,14 @@ jobs:
         with:
           version: 0.9.11
           theme-mode: dark
-          output-directory: _site # Default Github Pages site
+          output-directory: $GITHUB_WORKSPACE/_site # Default Github Pages site
 
       - name: Add a nojekyll file
         run: touch $GITHUB_WORKSPACE/_site/.nojekyll
 
       - name: Fix permissions
         run: |
-          chmod -c -R +rX "_site/" | while read line; do
+          chmod -c -R +rX "$GITHUB_WORKSPACE/_site/" | while read line; do
             echo "::warning title=Invalid file permissions automatically fixed::$line"
           done
 
