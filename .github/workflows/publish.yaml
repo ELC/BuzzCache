@@ -15,7 +15,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      OUTPUT_PATH: _site
+      OUTPUT_PATH: _site/
     steps:
       - uses: actions/checkout@v3
 
@@ -27,7 +27,7 @@ jobs:
           output-directory: ${{ vars.OUTPUT_PATH }}
 
       - name: Add a nojekyll file
-        run: touch $OUTPUT_PATH/.nojekyll
+        run: touch ${OUTPUT_PATH}.nojekyll
 
       - name: Fix permissions
         run: |
