@@ -1,8 +1,9 @@
 - #+BEGIN_QUERY
   {
-   :query [:find ?title
+   :query [:find ?page
    :where
-   [?page :block/string ?title]
+   [?page :page/name ?page-name]
+   [(clojure.string/includes? ?page-name "technology/language/Java")]]
   ]
   #+END_QUERY
 -
