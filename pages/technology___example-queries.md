@@ -3,6 +3,7 @@
    :query [:find (pull ?page [*])
            :where
            [?page :block/marker ?marker]
+  
            [(clojure.string/includes? (clojure.string/lower-case ?page) "technology/language/java")]]
   }
   #+END_QUERY
